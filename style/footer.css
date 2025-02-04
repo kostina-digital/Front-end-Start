@@ -1,0 +1,150 @@
+.footer {
+    background-color: black;
+    width: 100%;
+    margin: 0 auto;
+    color: #FBFBFC;
+    display: flex;
+    flex-direction: column;
+    padding: 68px 0 0 0;
+    align-self: center;
+}
+
+.footer__content {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo__footer {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    color: #FBFBFC;
+    text-decoration: none;
+    margin: 0 0 20px 0;
+}
+
+.contacts {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 600;
+    margin: 28px 0 0 0;
+}
+
+.offer__description__link {
+    color: #504DEE;
+    text-decoration: none;
+}
+
+.footer__link {
+    color: #FBFBFC;
+    text-decoration: none;
+}
+
+.policy {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    gap: 28px;
+    margin: 100px 0 0 0;
+}
+
+.footer__policy__link {
+    color: #6D6D77;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.footer__policy__link :visited {
+    color: #6D6D77;
+}
+
+.copyright {
+    margin: 0;
+    color: #6D6D77;
+}
+
+.sitemap__title {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    padding: 0 0 28px 0;
+    margin: 0;
+}
+
+.sitemap__list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    padding: 0 0;
+    margin: 0;
+    gap: 12px;
+    text-decoration: none;
+}
+
+.sitemap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 1439px) {
+    .footer__content {
+        width: 95%;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 0 0 30px;
+    }
+
+    .footer__info {
+        justify-content: space-between;
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .contacts {
+        margin: 0;
+        padding: 0;
+    }
+
+    .sitemap {
+        margin: 10px 0 0 0;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .sitemap__title {
+        border-bottom: 4px solid #FBFBFC;
+        width: 100px;
+        padding: 20px 0 0 0;
+        margin: 0 0 10px 0;
+    }
+
+    .logo__footer {
+        margin: 0;
+        padding: 0;
+    }
+}
